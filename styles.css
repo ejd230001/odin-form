@@ -20,7 +20,7 @@ html {
 
 body {
     height: 100%;
-    width: 68%;
+    width: 100%;
     padding: 0;
     margin: 0;
     display: flex;
@@ -94,6 +94,10 @@ img {
 
 .top {
     flex: 1;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .middle {
@@ -105,6 +109,11 @@ img {
 
 .bottom {
     flex: 1;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
 }
 
 .header {
@@ -163,5 +172,54 @@ input:invalid {
     border-radius: 4px;
 }
 
+.text {
+    width: 90%;
+    font-size: 20px;
+    font-weight: 650;
+    font-family: "Source Sans 3";
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+}
+
+button {
+    margin-top: 5%;
+    padding: 10px 40px;
+    color: white;
+    background-color: #596D48;
+    font-weight: 650;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.bottom > div {
+    font-family: "Source Sans 3";
+}
+
+.bottom > div > a {
+    color: #596D48;
+    font-weight: 650;
+}
+
+button:hover {
+    margin-top: 5%;
+    padding: 10px 40px;
+    color: white;
+    background-color: green;
+    font-weight: 650;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom > div > a:hover {
+    color: #596D48;
+    font-weight: 650;
+    cursor:pointer;
+}
 
 
